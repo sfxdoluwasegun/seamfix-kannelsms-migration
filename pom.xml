@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.javacodegeeks</groupId>
+  <artifactId>kannel.api</artifactId>
+  <version>1.0.2</version>
+  <packaging>jar</packaging>
+
+  <name>kannel.api</name>
+  <description>Java API to send SMS and WAP Push messages using Kannel SMS/WAP Gateway</description>
+  <url>http://kanneljavaapi.sourceforge.net/</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  	<maven.compiler.source>1.5</maven.compiler.source>
+		<maven.compiler.target>1.5</maven.compiler.target>
+	</properties>
+  <scm>
+  	<connection>scm:svn:http://kanneljavaapi.svn.sourceforge.net/svnroot/kanneljavaapi/trunk</connection>
+  	<developerConnection>scm:svn:https://kanneljavaapi.svn.sourceforge.net/svnroot/kanneljavaapi/trunk</developerConnection>
+  	<url>http://kanneljavaapi.svn.sourceforge.net/viewvc/kanneljavaapi</url>
+  </scm>
+  <organization>
+  	<name>Java Code Geeks</name>
+  	<url>http://javacodegeeks.blogspot.com</url>
+  </organization>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
